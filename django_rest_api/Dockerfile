@@ -1,7 +1,6 @@
 FROM python:3
 
 ENV PYTHONUNBUFFERED=1
-ENV k9back=1
 
 WORKDIR /code
 

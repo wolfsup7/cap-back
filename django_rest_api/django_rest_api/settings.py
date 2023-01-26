@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-%0_1^+7siz5-5=4$-l!^2$8*d15oh2kk94--5nv04dm@@+v3)(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1',]
 
 
 # Application definition
@@ -53,7 +53,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:8080",
+    "http://127.0.0.1:8000",
+]
 
 ROOT_URLCONF = 'django_rest_api.urls'
 
@@ -85,7 +88,7 @@ DATABASES = {
         'NAME': 'clients_api',
         'USER': '',
         'PASSWORD': '',
-        'HOST': 'localhost'
+        'HOST': '127.0.0.1'
     }
 }
 
