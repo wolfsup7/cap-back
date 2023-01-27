@@ -1,4 +1,4 @@
-FROM wolfsup7/k9:0.0.1
+FROM python:3@sha256:6b85854518f812d94cf2dfee2386df85b9cb78835a872d4769b4335f584c43ba
 WORKDIR /manage
 COPY manage.py .
 ENTRYPOINT ["python", "manage.py"]
