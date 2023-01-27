@@ -2,8 +2,7 @@ version: '3.9'
 
 services:
   django:
-    image: wolfsup7/k9:0.0.1
-    config: .env
+    image: wolfsup7/k9:0.0.2
     build: .
     ports:
       - "8000:8000"
