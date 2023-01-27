@@ -10,3 +10,4 @@ class Client(models.Model):
     address = models.CharField(max_length=50)
     phone = models.CharField(max_length=32)
     appointment = models.CharField(max_length=32)
+

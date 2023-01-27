@@ -1,4 +1,5 @@
 asgiref==3.6.0
+attrs==22.2.0
 bleach==6.0.0
 certifi==2022.12.7
 charset-normalizer==3.0.1
@@ -9,13 +10,18 @@ django-decouple==2.1
 djangorestframework==3.14.0
 flake8==6.0.0
 idna==3.4
+iniconfig==2.0.0
 Markdown==3.3.4
 martor==1.6.16
 mccabe==0.7.0
+packaging==23.0
+pluggy==1.0.0
 psycopg2-binary==2.9.5
 pybin==0.3.4
 pycodestyle==2.10.0
 pyflakes==3.0.1
+pytest==7.2.1
+python-decouple==3.7
 pytz==2022.7.1
 requests==2.28.2
 six==1.16.0
