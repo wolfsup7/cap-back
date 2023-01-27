@@ -1,7 +1,7 @@
 FROM python:3
 ENV PYTHONUNBUFFERED=1
 
-WORKDIR /code
+WORKDIR /python3.11
 
 COPY requirements.txt .
 
