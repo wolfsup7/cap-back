@@ -1,4 +1,4 @@
-FROM python:3
+FROM wolfsup7/k9:0.0.1
 WORKDIR /manage
 COPY manage.py .
 ENTRYPOINT ["python", "manage.py"]
